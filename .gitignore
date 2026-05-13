@@ -29,10 +29,10 @@ share/python-wheels/
 *.egg
 MANIFEST
 
-# Downloaded datasets (large files)
+# Downloaded datasets (large files, but keep model checkpoints)
 data/
 ml-1m/
-*.zip
+data/*.zip
 
 # Streamlit cache and secrets
 .streamlit/secrets.toml
